@@ -1,5 +1,5 @@
 # Arcanum - WORK IN PROGRESS
-Arcanum is a tool to encrypt file, text messages and more. Simply start the program, choose the file or enter your message, your key and encrypt it using **AES-256**.  
+Arcanum is a tool to encrypt file, text messages and more. Simply start the program, choose the file or enter your message, your key and encrypt it using **AES-256**. This repo is a fork of the CLI version: https://github.com/realPJL/encrypt-file-cli
 
 This tool uses the **GCM (Galois/Counter Mode)** because it allows messages longer than the block length of the block cipher to be encrypted.  
 
