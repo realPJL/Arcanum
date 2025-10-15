@@ -28,8 +28,8 @@ func main() {
 	// 'Bind' is a list of Go struct instances. The frontend has access to the methods of these instances.
 	// 'Mac' options tailor the application when running an macOS.
 	app := application.New(application.Options{
-		Name:        "arcanum",
-		Description: "A demo of using raw HTML & CSS",
+		Name:        "Arcanum",
+		Description: "Text and File Encryption to increase privacy",
 		Services: []application.Service{
 			application.NewService(&GreetService{}),
 		},
@@ -47,7 +47,7 @@ func main() {
 	// 'BackgroundColour' is the background colour of the window.
 	// 'URL' is the URL that will be loaded into the webview.
 	app.Window.NewWithOptions(application.WebviewWindowOptions{
-		Title: "Window 1",
+		Title: "Arcanum",
 		Mac: application.MacWindow{
 			InvisibleTitleBarHeight: 50,
 			Backdrop:                application.MacBackdropTranslucent,
